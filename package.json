@@ -4,10 +4,13 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend ",
-    "start":" npm run start --prefix Backend "
+    "start": " npm run start --prefix Backend "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "jwt-decode": "^4.0.0"
+  }
 }

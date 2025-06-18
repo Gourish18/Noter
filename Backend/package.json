@@ -15,13 +15,23 @@
     "@tailwindcss/vite": "^4.1.10",
     "@upstash/ratelimit": "^2.0.5",
     "@upstash/redis": "^1.34.9",
+    "axios": "^1.10.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
+    "env": "^0.0.2",
     "express": "^4.18.2",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.1",
+    "neverbounce": "^5.0.5",
     "nodemon": "^3.1.10",
     "notetakingapp": "file:..",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
     "path": "^0.12.7",
-    "tailwindcss": "^4.1.10"
+    "tailwindcss": "^4.1.10",
+    "validator": "^13.15.15"
   }
 }
