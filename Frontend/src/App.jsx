@@ -37,7 +37,7 @@ const PrivateRoute = ({ children }) => {
 
 const App = () => {
   return (
-    <div className="relative h-full w-full" data-theme="silk">
+    <div className="relative h-full w-full" data-theme="forest">
       <Routes>
         {/* Public Routes */}
         <Route path="/login" element={<LoginPage />} />
